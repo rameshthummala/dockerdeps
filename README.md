@@ -1,5 +1,5 @@
 # dockerdeps
-This is a project which created a dependency matrix based on:
+This is a project which creates a dependency matrix based on:
 * Build dependencies (from pom.xml/ivy.xml/build.gradle)
 * Docker parent child dependencies
 * Code commit change lists
