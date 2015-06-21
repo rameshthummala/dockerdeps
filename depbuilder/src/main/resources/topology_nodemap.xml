@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?/>
+<topologynodemap/>
+	<map/>
+		<host type="MasterDB" name="db01.foo.com" depltype="vm"/>
+		<host type="SlaveDB" name="db02.foo.com" depltype="vm"/>
+		<host type="APIIndexer" name="indexer01.foo.com" depltype="vm"/>
+		<host type="APISearcher" name="search124.foo.com" depltype="docker"/>
+		<host type="APISearcher" name="search125.foo.com" depltype="docker"/>
+		<host type="APISearcher" name="search126.foo.com" depltype="docker"/>
+		<host type="APISearcher" name="search127.foo.com" depltype="docker"/>
+		<host type="APICache" name="cache03.foo.com" depltype="vm"/>
+		<host type="APICacheLoader" name="cacheloader02.foo.com" depltype="vm"/>
+		<host type="RabbitMQ" name="tomcat21.foo.com" depltype="vm"/>
+		<host type="APIApache" name="www102.foo.com" depltype="docker"/>
+		<host type="CDN" name="cdn01.foo.com" depltype="vm"/>
+		<host type="APITomcat" name="app02.foo.com" depltype="vm"/>
+	</map/>
+</topologynodemap/>
