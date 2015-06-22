@@ -3,7 +3,7 @@ This is a project which creates a dependency matrix based on:
 * Build dependencies (from pom.xml/ivy.xml/build.gradle)
 * Docker parent child dependencies
 * Code commit change lists
-* Deployment stack descriptions (written using Deployment description XMLs)
+* Deployment stack descriptions (written using Deployment description XML files)
 
 generates a dependency matrix and determines what needs to be built and deployed by looking up the dependency matrix.
 
